@@ -137,17 +137,24 @@ body {
 
 .intro__icon-wrapper {
   margin-right: 30px;
+  margin-left: 30px;
   width: 30px;
   display: flex;
   justify-content: center;
 }
 
-.intro__icon {
+.intro__icon-left {
   height: 1.1428rem;
   vertical-align: text-bottom;
 }
 
-.intro__icon path {
+.intro__icon-right {
+  height: 1.1428rem;
+  vertical-align: text-bottom;
+  rotate: 180deg;
+}
+
+.intro__icon-left, .intro__icon-right path {
   fill: var(--text-decoration-color);
 }
 
