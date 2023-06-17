@@ -169,7 +169,7 @@ body {
 
 .experiences {
   flex: 1 1 60%;
-  margin-right: 50px;
+  margin-left: 50px;
 }
 
 .experiences__header {
@@ -194,7 +194,6 @@ body {
 }
 
 .experiences__company-project {
-  margin-left: 15px;
   margin-bottom: 25px;
 }
 
@@ -218,6 +217,7 @@ body {
 
 .additional-info {
   flex: 1 1 40%;
+  margin-left: 50px;
 }
 
 .additional-info__education {
