@@ -193,6 +193,11 @@ body {
   margin-bottom: 20px;
 }
 
+.experiences__company-header-name a {
+  color: inherit; 
+  text-decoration: none; 
+}
+
 .experiences__company-project {
   margin-bottom: 25px;
 }
@@ -246,6 +251,12 @@ body {
 .additional-info__education-university-name {
   color: var(--secondary-text-color);
 }
+
+.additional-info__education-university-name a {
+  color: inherit; 
+  text-decoration: none; 
+}
+
 
 .additional-info__languages {
   margin-bottom: 20px;
