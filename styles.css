@@ -203,6 +203,7 @@ body {
 .skill__list {
   color: var(--secondary-text-color);
   margin-bottom: 10px;
+  padding-left: 13px;
 }
 
 .experiences {
@@ -255,7 +256,7 @@ body {
 
 .experiences__company-project-responsibilities {
   color: var(--secondary-text-color);
-  padding-left: 20px;
+  padding-left: 13px;
 }
 
 .additional-info {
