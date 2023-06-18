@@ -115,7 +115,7 @@ video {
 
 .resume__block {
   border-bottom: 3px solid var(--border-color);
-  padding-bottom: 30px;
+  padding-bottom: 20px;
   margin-bottom: 15px;
 }
 
@@ -159,6 +159,7 @@ video {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  min-width: 250px;
 }
 
 .contact-info__block--center {
@@ -283,7 +284,7 @@ video {
 
 .experiences {
   flex: 1 1 60%;
-  margin-left: 50px;
+  margin-left: 25px;
 }
 
 .experiences__header {
