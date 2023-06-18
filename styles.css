@@ -31,7 +31,7 @@ body {
 .fv {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 
 .resume {
@@ -203,6 +203,7 @@ body {
 .skill__list {
   color: var(--secondary-text-color);
   margin-bottom: 10px;
+  padding-left: 13px;
 }
 
 .experiences {
@@ -255,7 +256,7 @@ body {
 
 .experiences__company-project-responsibilities {
   color: var(--secondary-text-color);
-  padding-left: 20px;
+  padding-left: 13px;
 }
 
 .additional-info {
@@ -307,4 +308,32 @@ body {
 
 .additional-info__languages-item {
   color: var(--secondary-text-color);
+}
+
+.additional-info__hobbies {
+  margin-bottom: 20px;
+}
+
+.additional-info__hobbies-header {
+  color: var(--secondary-text-color);
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.additional-info__hobbies-list {
+  color: var(--secondary-text-color);
+  padding-left: 13px;
+}
+
+.additional-info__dog-header {
+  color: var(--secondary-text-color);
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.additional-info__dog-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
 }
