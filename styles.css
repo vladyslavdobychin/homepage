@@ -37,10 +37,37 @@ address {
   font-style: normal;
 }
 
+.modal-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  z-index: 100;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+video {
+  width: 720px;
+  height: 480px;
+}
+
 .change-theme__btn {
   position: absolute;
   top: 20px;
+  right: 60px;
+}
+
+.surprise__btn {
+  position: absolute;
+  top: 20px;
   right: 20px;
+}
+
+.icon__btn {
   cursor: pointer;
   background-color: transparent;
   border: none;
@@ -50,11 +77,12 @@ address {
   color: var(--text-decoration-color);
 }
 
-.change-theme__btn--hidden {
+/*  .change-theme__btn--hidden */
+.visually-hidden {
   display: none;
 }
 
-.change-theme__btn svg {
+.icon__btn svg {
   height: 100%;
   width: 100%;
 }
