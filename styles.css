@@ -182,6 +182,7 @@ video {
   width: 20px;
   display: flex;
   justify-content: center;
+  align-self: center;
 }
 
 .contact-info__item-icon path {
